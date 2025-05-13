@@ -1,3 +1,6 @@
+app.get("/", (req, res) => {
+  res.send("🚀 TrustVerify API is running");
+});
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
